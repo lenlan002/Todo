@@ -1,0 +1,88 @@
+/* @author LML*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,500&display=swap');
+
+/*Style Reset*/
+html, body, span ,section, p, form, label, input, h1, textarea {
+	margin: 0;
+	padding: 0;
+}
+
+#container
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url('background.jpg');
+}
+
+#header
+{
+    margin: 0 auto;
+    height: 10vh;
+    width: 90%;
+    text-align: center;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.75);
+}
+
+#info
+{
+    margin: 0 auto;
+    height: 20vh;
+    width: 90%;
+    background-color:rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+
+#put-task
+{
+    font-size: 1em;
+    width: 15vw;
+    height: 4vh;
+    text-align: center;
+}
+
+#date
+{
+    font-size: 1em;
+    width: 15vw;
+    height: 4vh;
+    text-align: center;
+}
+
+#add-task
+{
+    font-size: 1em;
+    width: 15vw;
+    height: 4vh;
+}
+
+#list
+{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    height: 50vh;
+    width: 90%;
+    background-color:rgba(0, 0, 0, 0.75);
+}
+
+#spacer
+{
+    margin: 0 auto;
+    height: 5vh;
+    width: 90%;
+    background-color:rgba(0, 0, 0, 0.75);
+}
+
+h1
+{
+    font-size: 4.5em;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 1.25px;
+}
+
+textarea:focus 
+{ 
+    outline: none;
+}
